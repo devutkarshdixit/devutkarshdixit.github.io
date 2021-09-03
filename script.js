@@ -33,6 +33,7 @@ $(document).ready(function () {
         $('.menu-btn i').toggleClass("active");
     });
 
+    
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Web Developer...", "Designer", "Freelancer"],
