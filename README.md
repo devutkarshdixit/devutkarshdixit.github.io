@@ -1,3 +1,3 @@
 # utkarshdixit
 A personal portfolio website.
-https://lucky-dixit.github.io/utkarshdixit/
+https://utkarsh-dixit-git.github.io/utkarshdixit/
