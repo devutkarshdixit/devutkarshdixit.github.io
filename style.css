@@ -113,6 +113,7 @@ html{
     color: #fff;
     min-height: 500px;
     font-family: 'ubuntu',sans-serif;
+    overflow: hidden;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -610,6 +611,9 @@ footer a:hover::after{
     .home .max-width{
         margin-left: 0px;
     }
+    .visible-br{
+        display: none !important;
+    }
 }
 @media (max-width: 1104px){
     .about .about-content .left img{
@@ -720,5 +724,10 @@ footer a:hover::after{
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+}
+@media (max-width:375px){
+    .visible-br{
+        display: block !important;
     }
 }
