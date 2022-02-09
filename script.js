@@ -86,3 +86,16 @@ function myFunction() {
         moreText.style.display = "inline";
     }
 }
+function whatsapp(){
+    var Name = document.getElementById("name");
+    var Mail = document.getElementById("email");    
+    var Sub = document.getElementById("subject");
+    var Proj = document.getElementById("project");
+
+    var url="https://wa.me/+917735886881?text="
+    + "Name: " + Name + "%0a"
+    + "Email: " + Mail  + "%0a"            
+    + "Subject: " + Sub + "%0a"
+    + "Project: " + Proj; 
+    window.open(url,'_blank').focus;
+}
