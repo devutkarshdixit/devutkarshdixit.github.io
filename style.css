@@ -182,7 +182,7 @@ section .title::before{
     position: absolute;
     bottom: -12px;
     left: 50%;
-    width: 180px;
+    width: 280px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -203,7 +203,7 @@ section .title::after{
 
 
 .about .title::after{
-    content: "who I am";
+    content: "Who I am";
 }
 
 .about .about-content .left{
@@ -223,7 +223,7 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .right .text span{
+.about span{
     color: crimson;
 }
 .about .about-content .right p{
@@ -306,7 +306,7 @@ section .title::after{
 
 
 .skills .title::after{
-    content: "what I know";
+    content: "Some Key Skills";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -325,22 +325,6 @@ section .title::after{
 
 
 
-/* ==========Read More Button CSS================== */
-button{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 12px;
-    padding: 8px 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-}
-button:hover{
-    color: crimson;
-    background: none;
-}
 
 
 
@@ -381,10 +365,13 @@ button:hover{
 .skills-content .right .js::before{
     width: 70%;
 }
-.skills-content .right .php::before{
+.skills-content .right .bootstrap::before{
+    width: 90%;
+}
+.skills-content .right .vue::before{
     width: 50%;
 }
-.skills-content .right .sql::before{
+.skills-content .right .react::before{
     width: 70%;
 }
 
@@ -394,7 +381,7 @@ button:hover{
 /* -------------Works section----------- */
 
 .works .title::after{
-    content: "works i did";
+    content: "Some of my top works";
 }
 .works .carousel .card{
     background: #222;
@@ -463,7 +450,7 @@ button:hover{
 
 /* Contact Section  */
 .contact .title::after{
-    content: "get in touch";
+    content: "Let's get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -533,38 +520,38 @@ button:hover{
     border-color: #b3b3b3;
 }
 .contact .right form .textarea textarea{
-  padding-top: 10px;
-  resize: none;
+    padding-top: 10px;
+    resize: none;
 }
 .contact .right form .button-area,
 .contact .right .whatsapp-area{
-  display: flex;
-  align-items: center;
-  padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
 }
 .right form .button-area button,
 .right .whatsapp-area button{
-  color: #fff;
-  display: block;
-  width: 160px!important;
-  height: 45px;
-  outline: none;
-  font-size: 13px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: crimson;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
 }
 .right form .button-area button:hover,
 .right .whatsapp-area button:hover{
-  color: crimson;
-  background: none;
+    color: crimson;
+    background: none;
 }
 .contact .right form p{
-      text-align: justify;
+    text-align: justify;
 }
 
 
@@ -730,4 +717,21 @@ footer a:hover::after{
     .visible-br{
         display: block !important;
     }
+}
+
+/* ==========Read More Button CSS================== */
+button{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+}
+button:hover{
+    color: crimson;
+    background: none;
 }
