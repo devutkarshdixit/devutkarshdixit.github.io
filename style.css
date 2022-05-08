@@ -381,7 +381,7 @@ section .title::after{
 /* -------------Works section----------- */
 
 .works .title::after{
-    content: "Some of my top works";
+    content: "my top works";
 }
 .works .carousel .card{
     background: #222;
