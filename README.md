@@ -1,5 +1,5 @@
 # A personal `portfolio` website.
-## https://utkarsh-dixit-git.github.io/utkarshdixit/
+## <a href="https://utkarsh-dixit-git.github.io/utkarshdixit/"><img src="https://img.shields.io/github/deployments/utkarsh-dixit-git/utkarshdixit/github-pages?style=for-the-badge"></a>
 ## <a href="https://utkarsh-dixit-git.github.io/utkarshdixit/Resume.pdf"><img src="https://img.shields.io/badge/View-Resume-brightgreen?style=for-the-badge"></a>
 ![](https://img.shields.io/github/commit-activity/m/utkarsh-dixit-git/utkarshdixit?style=for-the-badge)
 ![](https://img.shields.io/github/last-commit/utkarsh-dixit-git/utkarshdixit?style=for-the-badge)
@@ -7,4 +7,3 @@
 ![](https://img.shields.io/github/languages/count/utkarsh-dixit-git/utkarshdixit?style=for-the-badge)
 ![](https://img.shields.io/github/languages/code-size/utkarsh-dixit-git/utkarshdixit?style=for-the-badge)
 ![](https://img.shields.io/github/repo-size/utkarsh-dixit-git/utkarshdixit?style=for-the-badge)
-<a href="https://utkarsh-dixit-git.github.io/utkarshdixit/"><img src="https://img.shields.io/github/deployments/utkarsh-dixit-git/utkarshdixit/github-pages?style=for-the-badge"></a>
