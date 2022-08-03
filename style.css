@@ -155,11 +155,11 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .works, .contact, .footer{
+.about, .experiences, .skills, .works, .contact, .footer{
     font-family: 'Poppins',sans-serif;
 }
 .about .about-content,
-.services .services-content,
+.experiences .experiences-content,
 .skills .skills-content,
 .contact .contact-content,
 .footer .footer-content{
@@ -247,25 +247,25 @@ section .title::after{
 
 
 
-/* -------------services section  --------*/
+/* -------------experiences section  --------*/
 
 
-.services, .works{
+.experiences, .works{
     background: #111;
     color: #fff;
 }
-.services .title::before,
+.experiences .title::before,
 .works .title::before{
     background: #fff;
 }
-.services .title::after,
+.experiences .title::after,
 .works .title::after{
     background: #111;
 }
-.services .title::after{
-    content: "what I provide";
+.experiences .title::after{
+    content: "where I worked";
 }
-.services .services-content .card{
+.experiences .experiences-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -274,27 +274,26 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .services-content .card:hover{
+.experiences .experiences-content .card:hover{
     background: crimson;
 }
-.services .services-content .card .box{
+.experiences .experiences-content .card .box{
     transition: all 0.3s ease;
 }
-.services .services-content .card:hover .box{
+.experiences .experiences-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .services-content .card i{
-    font-size: 50px;
-    color: crimson;
-    transition: color 0.3s ease;
-}
-.services .services-content .card:hover i{
-    color: #fff;
-}
-.services .services-content .card .text{
+.experiences .experiences-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: crimson;
+}
+.experiences .experiences-content .card:hover .text{
+    color: #111;
+}
+.experiences .experiences-content .card p{
+    color: #fff;
 }
 
 
@@ -674,7 +673,7 @@ footer a:hover::after{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .services-content .card{
+    .experiences .experiences-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -697,7 +696,7 @@ footer a:hover::after{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .services-content .card{
+    .experiences .experiences-content .card{
         width: 100%;
     }
 }
