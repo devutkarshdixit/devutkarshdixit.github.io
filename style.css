@@ -273,6 +273,7 @@ section .title::after{
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 10px;
 }
 .experiences .experiences-content .card:hover{
     background: crimson;
