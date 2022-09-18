@@ -107,12 +107,14 @@ html{
 
 .home{
     display: flex;
-    background: url(images/banner.jpeg) no-repeat left;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpeg);
+    background-position: center;
+    background-size: cover;
     font-family: 'ubuntu',sans-serif;
-    overflow: hidden;
+    color: #fff;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
