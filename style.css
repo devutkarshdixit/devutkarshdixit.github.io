@@ -734,3 +734,22 @@ button:hover{
     color: crimson;
     background: none;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #999; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #111; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222; 
+  }
