@@ -32,6 +32,20 @@ $(document).ready(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["Web Developer...", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["Web Developer...", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 
 
     // owl carousel script
