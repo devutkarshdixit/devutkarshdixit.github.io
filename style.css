@@ -594,14 +594,13 @@ footer a:hover::after{
 }
 
 
-
+.visible-br{
+    display: none !important;
+}
 /* responsive media  */
 @media (max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
-    }
-    .visible-br{
-        display: none !important;
     }
 }
 @media (max-width: 1104px){
