@@ -647,12 +647,12 @@ section .title::after {
 }
 
 .right .whatsapp-area button {
-    color: #fff;
+    color: #111;
     display: block;
     width: 160px !important;
     height: 45px;
     outline: none;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
